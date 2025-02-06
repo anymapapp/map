@@ -1,0 +1,30 @@
+[
+  {
+    "field": "Capacity",
+    "legendType": "category",
+    "Legends": [
+      {
+        "label": "Low capacity",
+        "NumericRanges": [0, 2999]
+      },
+      {
+        "label": "Medium capacity",
+        "NumericRanges": [3000, 4999]
+      },
+      {
+        "label": "High capacity",
+        "NumericRanges": [5000, 9999]
+      }
+    ]
+  },
+  {
+    "field": "Density",
+    "legendType": "gradient",
+    "Legends": [
+      { "label": "Low Density", "NumericRanges": [0, 19] },
+      { "label": "Medium Density", "NumericRanges": [20, 49] },
+      { "label": "High Density", "NumericRanges": [50, 99] },
+      { "label": "Danger Density", "NumericRanges": [100, 1000] }
+    ]
+  }
+]
